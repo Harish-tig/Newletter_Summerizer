@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background color */
+body {
+    padding-top: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #63737a; /* Light background color */
+    color: #D3D3D3;
+    transition: filter 0.4s ease;
+}
+
+
+/* Overlay styling */
+.overlay {
+    position: fixed;
+    top: 71px;
+    left: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
+    display: none;
+    z-index: 999;
+    transition: opacity 0.4s ease;
+}
+
+/* Header styling */
+header {
+    background-color: #0e3149; /* Header Background Color */
+    color: white; /* Light Grey */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    top: 0;
+    z-index: 1001;
+}
+
+/* Span within header */
+header span {
+    color: white; /* Accent color for header */
+}
+
+header span1 {
+    color: red; /* Accent color for header */
+}
+
+header h3 {
+    color: white;
+    text-align: left; /* Aligns the text to the left */
+    width: 100%; /* Ensures the h3 takes up the full width of its container */
+    height: 30px; /* Fixes the height */
+    border-radius: 10px;
+    margin-left: 30px; /* Removes any left margin */
+    padding-left: 10px; /* Optionally, adds padding for slight spacing */
+    margin-top: 0px;
+}
+
+
+/* Navigation styling */
+nav {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1001;
+}
+
+/* Menu icon */
+.menu-icon, .close-icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: white; /* Color of menu icons */
+    margin: 0 5px;
+}
+
+.close-icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+    z-index: 1002;
+}
+
+/* Menu items container */
+#category-menu {
+    list-style-type: none;
+    display: block;
+    background-color: hsl(204, 54%, 21%); /* Menu Background Color */
+    padding: 15px;
+    position: fixed;
+    top: 74px; /* Positioned below the header */
+    left: -250px;
+    height: calc(100% - 70px);
+    width: 250px;
+    transition: left 0.4s ease;
+    z-index: 1001;
+}
+
+/* Menu in open state */
+#category-menu.show {
+    left: 0; /* Slide in from the left */
+}
+
+/* Menu items (links) */
+#category-menu li a {
+    list-style: none;
+    margin: 15px 0;
+    border-bottom: 2px solid black; /* Dark Red Divider */
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Link text inside the menu */
+#category-menu li a {
+    color: white; /* Light Grey */
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Active menu item*/
+#category-menu li a.active {
+    color: black;
+    font-weight: bold;
+    background-color: #FEFAE0;
+    border-radius: 10px;
+}
+
+.blur {
+    filter: blur(5px);
+    transition: filter 0.4s ease;
+}
+
+/* Hover effect for menu items */
+#category-menu li a:hover {
+    color: black; /* Text Color */
+    background-color: #d9d9d9; /* Dark Red Background on Hover */
+    border-radius: 10px;
+    /*animation: loadingBar 0.5s forwards;*/
+}
+
+/* Hover animation */
+@keyframes loadingBar {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* News block container */
+.news-block {
+    position: relative;
+    margin: 00rem 3rem 0rem 3rem;
+    padding: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+/* News container for each block */
+.news-container {
+    background-color: #d9d9d9; /* Very Dark Grey */
+    margin-bottom: 20px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle Shadow */
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+    width: 100%;
+    border: 2.5px solid #0e1349; /* Dark Red Border */
+}
+
+/* Images inside the news container */
+.news-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 0.09rem;
+    transition: transform 0.2s ease;
+}
+
+/* Headline inside news container */
+.news-container h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    align-items: flex-start;
+    text-align: left;
+    color: black; /* Medium Dark Red */
+}
+
+/* Divider line between left and right container */
+/*.line {
+  width: 200px;
+  height: 2px;
+  background-color: black;
+}
+
+.line::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 2px;
+  background: radial-gradient(circle at 50% 50%, #fff, #000);
+  clip-path: polygon(0 1px, 200px 1px, 200px 0,0 0);
+}*/
+
+.line {
+    width: 2px; /* Line thickness */
+    height: 80%; /* Line height (adjustable) */
+    background-color: black; /* Solid middle color */
+    position: relative;
+}
+
+.line::before, .line::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+.line::after {
+    top: 50%;
+    transform: rotate(180deg);
+}
+
+/* Alternating news containers */
+.news-container:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/* Hover effect for news blocks */
+.news-container:hover {
+    transform: scale(1.03);  /* Scale the block slightly on hover */
+    border: 5px solid #0e3149;
+}
+
+
+/* Paragraph text styling in the left container */
+.news-container-left p {
+    color: #333; /* Medium Dark Red */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Left container of news (headline and insights) */
+.news-container-left {
+    background-color: #d9d9d9; /* Medium Dark Grey */
+    border-radius: 10px;
+}
+
+.news-container-left h2{
+    text-align: center;
+}
+
+/* Right container (summary and link) */
+.news-container-right {
+    background-color: #0e3149; /* Dark Grey */
+    border-radius: 10px;
+    display: flex; /* Corrected from display-flex to display: flex */
+    position: relative;
+    flex: auto;
+    flex-grow: 1;
+    text-align: center;
+    padding: 0.4rem;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+/* Aligning left and right containers */
+.news-container-left, .news-container-right {
+    width: 50%;
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-container-right h3{
+    align-items: center;
+    top:0px;
+    color: black;
+    text-align: center;
+}
+
+.news-container-right p{
+    padding: 5px;
+}
+
+.news-container-right p:first-letter {
+  font-weight: bold;
+  font-size: 25px;
+  font-size: 2rem;
+  line-height: 10px;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+/* Summary section styling */
+.news-summary {
+    background-color:  #d9d9d9; /* Dark Grey */
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    padding: 0.4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Paragraph inside the summary section */
+.news-summary p {
+    color: #333; /* Light Grey for readability */
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Journalist name styling */
+.journalist-name {
+    color: white; /* Medium Dark Red */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.journalist-name a{
+    cursor: alias;
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    background-color: #0e3149;
+    color: #D3D3D3;
+    padding: 40px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+}
+
+.head h1{
+  color: white;
+}
+
+.head span{
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.footer-content {
+    flex: 1;
+    margin: 20px;
+    min-width: 200px;
+}
+
+.footer-content h3 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.footer-content p,
+.footer-content a {
+    color: #FEFAE0;
+    line-height: 1.6;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font: bold;
+}
+
+.footer-content a:hover {
+    color: black;
+}
+
+.quick-links {
+    list-style: none;
+    margin-left:20px;
+    flex-direction: column;
+}
+
+.quick-links a {
+    color: #FEFAE0;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+    text-decoration: none;
+    padding:2px;
+}
+
+.quick-links a:hover {
+    color: black;
+}
+
+.footer-bottom {
+    background-color: #5d7840;
+    padding: 15px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #D3D3D3;
+}
+
+
+/* Media query for smaller screens (below 768px)*/
+@media (max-width: 750px) {
+    body {
+        padding-top: 60px;
+    }
+
+    header {
+        padding: 17px;
+        font-size: 0.9rem; /* Reduce font size */
+    }
+
+    .menu-icon, .close-icon {
+        font-size: 24px; /* Reduce icon size */
+    }
+
+    #category-menu {
+        width: 75%; /* Make the menu take the full width on small screens */
+        left: -75%; /* Start off-screen */
+    }
+
+    #category-menu.show {
+        left: 0; /* Slide in from the left */
+    }
+
+    .news-block {
+        padding: 1rem;
+        margin: 10px 0;
+    }
+
+    .news-container {
+        flex-direction: column; /* Stack the content vertically */
+        padding: 1rem;
+        border-radius: 5px; /* Reduce border radius */
+    }
+
+    .news-container img {
+        width: 100%; /* Make the image full-width*/
+    }
+
+    .news-container:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .news-container-left, .news-container-right {
+        width: 100%; /* Stack content on top of each other */
+        padding: 0.5rem;
+    }
+
+    .news-summary {
+        padding: 1rem; /* Add padding for readability */
+    }
+
+    footer {
+        padding: 15px 0; /* Reduce padding in the footer*/
+    }
+
+    .footer-content {
+        text-align: center;
+    }
+
+    .footer-content h3 {
+        font-size: 1rem; /* Adjust font size */
+    }
+
+    .footer-content p {
+        font-size: 0.8rem; /* Adjust paragraph font size*/
+    }
+}
