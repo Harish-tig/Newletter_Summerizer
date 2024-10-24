@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="525810e6-2786-4b5c-8614-b84b321b8352" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/comments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/arts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/business.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/culture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/home.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/innovation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/news.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/Scrape/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/static/aboutus.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/static/images/arin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/static/images/harish.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/static/images/noimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/static/images/priti.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/static/images/sudeesh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/static/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/templates/aboutus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/templates/arts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/templates/business.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/templates/culture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/templates/inovation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/templates/news.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/templates/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/templates/sports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/login/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/newsletter_summarizer/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/newsletter_summarizer/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/newsletter_summarizer/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/newsletter_summarizer/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsletter_summarizer/newsletter_summarizer/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ntcE3gLr09FlUiRXyBMAYqThHq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="525810e6-2786-4b5c-8614-b84b321b8352" name="Changes" comment="" />
+      <created>1729795700176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729795700176</updated>
+    </task>
+    <servers />
+  </component>
+</project>

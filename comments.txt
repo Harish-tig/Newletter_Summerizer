@@ -12,7 +12,7 @@ login/template/home.html
 
 3] we need to work a lot on ui
 
-4] pushing code is left. i have to verify few things with yall.(new to django)
+4] pushed code. creates function to scrape
 
 5] since we often forget to read summary of git. i added a comment file in main project directory.
    where we can update project in detail. photo attached below
